@@ -1,0 +1,355 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/7ca5b7c7-20aa-42a8-a278-f801b0d65fa1/fb548c0a-8582-43c5-9fba-cd98bf27452f/IN-en-20240326-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 644px;
+    position: relative;
+}
+
+.main .box {
+    height: 644px;
+    width: 100%;
+    opacity: .69;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+nav img {
+    color: rgb(255, 0, 0);
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: "Martel Sans", sans-serif;
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-weight: bolder;
+    font-size: 55px;
+    text-align: center;
+    font-family: "poppins", sans-serif;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.separation {
+    height: 6px;
+    background-color: rgb(64, 64, 64);
+    position: relative;
+    z-index: 20;
+}
+
+.line{
+    height: 6px;
+    background-color: rgb(64, 64, 64);
+    position: relative;
+    z-index: 20;
+}
+
+.btn {
+    padding: 3px 8px;
+    background-color: rgba(248, 243, 243, 0.021);
+    font-weight: 400;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.523);
+    cursor: pointer;
+}
+
+.btn-red {
+    background-color: red;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    padding: 3px 24px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: rgb(254, 254, 254);
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.main input {
+    border-radius: 4px;
+    padding: 7px 101px 8px 14px;
+    font-size: 12px;
+    color: white;
+    background: rgba(23, 23, 23, 0.6);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+}
+
+
+.secImg {
+    position: relative;
+}
+
+.strong img{
+    width: 555px;
+    position: relative;
+    z-index: 10;
+} 
+
+.strong video{
+    position: absolute;
+    padding:20px 50px 60px 90px;
+    width:360px;
+}
+
+.secImg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 555px;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section.first>div :nth-child(1) {
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+}
+
+.faq {
+    background-color: black;
+    color: white;
+    padding: 34px;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faqbox {
+    display: flex;
+    background-color: rgb(62, 62, 62);
+    justify-content: space-between;
+    padding: 30px;
+    max-width: 60vw;
+    margin: 12px auto;
+    cursor: pointer;
+    transition: all 1s ease-out;
+}
+
+.faqbox:hover {
+    background-color: rgb(195, 122, 238);
+}
+
+.faqbox svg {
+    color: white;
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 14px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+footer .questions {
+    padding: 34px 0;
+}
+
+.footer a {
+    font-size: 14px;
+    color: white;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+
+@media screen and (max-width: 1300px) {
+
+    nav {
+        max-width: 90vw;
+    }
+
+    .main input {
+        padding: 7px 6px 10px 7px;
+        font-size: 14px;
+    }
+
+    .first {
+        flex-wrap: wrap;
+    }
+    
+    .first>div :first-child {
+        font-size: 28px;
+    }
+    
+    .first>div:nth-child(2) {
+        font-size: 12px;
+    }
+
+    .btn-red {
+        padding: 5px 9px 5px 9px;
+        font-size: 18px;
+    }
+
+    .hero {
+        height: calc(100% - 280px);
+        gap:13px;
+        padding: 4px 30px;
+    }
+
+    .hero> :nth-child(1) {
+        font-size: 32px;
+        
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 18px;
+    }
+    
+    .hero> :nth-child(3) {
+        font-size: 18px;
+    }
+
+    .hero-buttons{
+        flex-direction: column;
+    }
+
+    .faq {
+        background-color: black;
+        color: white;
+        padding: 14px;
+        font-size: 24px;
+        font-weight: bold;
+    
+    }
+    
+    .faq h2 {
+        text-align: center;
+        font-size: 24px;
+    }
+    
+    .faqbox {
+        display: flex;
+        background-color: rgb(62, 62, 62);
+        justify-content: space-between;
+        padding: 10px 10px 1px 9px;
+        max-width: 70vw;
+        margin: 8px auto;
+        font-size: 12px;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: white;
+        gap: 25px;
+    }
+    
+    .secImg img {
+        width: 305px;
+    }
+    
+    .secImg video {
+        width: 305px;
+    }
+
+    .strong img {
+        width: 405px;
+    }
+
+    .strong video {
+        width: 240px;
+    }
+
+    .line {
+        display: none;
+    }
+}
+

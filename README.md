@@ -1,2 +1,2 @@
 # NETFLIX
-<h3>I have created a NETFLIX DEMO using basic CSS & JAVASCRIPT knowledge.</h3>
+<h3>I have created a NETFLIX DEMO using basic HTML & CSS knowledge.</h3>
